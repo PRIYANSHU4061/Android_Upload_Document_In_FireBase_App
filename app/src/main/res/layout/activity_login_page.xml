@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images"
+    tools:context=".Login_page">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="580dp"
+        android:layout_margin="20dp"
+        android:background="#56FFFFFF"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5">
+
+        <EditText
+            android:id="@+id/text1"
+            android:layout_width="332dp"
+            android:layout_height="68dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:autofillHints="Email"
+            android:ems="10"
+            android:hint="@string/email"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/text2"
+            android:layout_width="332dp"
+            android:layout_height="68dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:autofillHints="Password"
+            android:ems="10"
+            android:hint="@string/pass"
+            android:inputType="text"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.352" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="216dp"
+            android:layout_height="64dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="200dp"
+            android:onClick="open1"
+            android:text="@string/text3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/text2"
+            app:layout_constraintVertical_bias="0.709" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

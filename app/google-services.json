@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "977967966573",
+    "project_id": "restaurant-s-data",
+    "storage_bucket": "restaurant-s-data.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:977967966573:android:2788be9065c516ddc81264",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmHlfNDrJS7OakdiVPxB5X4pwIdJafX_s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

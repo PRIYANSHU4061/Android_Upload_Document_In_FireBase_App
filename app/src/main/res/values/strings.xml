@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ShareWithMe</string>
+    <string name="email">Email</string>
+    <string name="pass">Password</string>
+    <string name="repass">Re-password</string>
+    <string name="text1">Register</string>
+    <string name="text2">Go to LogIn</string>
+    <string name="text3">LogIn</string>
+    <string name="text">Welcome</string>
+    <string name="text4">Share With Us</string>
+
+</resources>
